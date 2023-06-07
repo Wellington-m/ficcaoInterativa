@@ -1,0 +1,39 @@
+body {
+  background-color: #333;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  background-color: #FFFFFF;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.decision-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.decision-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 240px;
+}
